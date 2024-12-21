@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>tannu's portfolio</title>
 </head>
 
 <body>
 
-    <div id="main">
+    <nav>
+        <h3 class="logo">Tannu D. _</h3>
 
-        <div class="section1">
+        <ul class="nav-links">
+            <a href="#"><li class="link">// home</li></a>
+            <a href="#"><li class="link">// experties</li></a>
+            <a href="#"><li class="link">// work</li></a>
+            <a href="#"><li class="link">// contact</li></a>
+        </ul>
+    </nav>
 
-            <div class="box1">
-                <h2>Tamalsen.</h2>
+    <section>
+        <h1 class="name">Tannu </h1>
+        <h3 class="caption">SOFTWARE ENGINEER, FRONT  END & APP DEVELOPER.</h3>
+    </section>
+
+    
+
+    <section>
+        <h1 class="experties">My Experties</h1>
+
+        <div class="row">
+            <div class="column1">
+                <h2 class="first">Software Developer</h2>
             </div>
-            <div class="line"></div>
-
-            <div class="box2">
-
-                <a href="#">// home</a>
-                <a href="#">// experties</a>
-                <a href="#">// experince</a>
-                <a href="#">// work</a>
-                <a href="#">// contact</a>  
+            <div class="column">
+                <h2 class="second">Frontend React NextJs</h2>
             </div>
-              
+            <div class="column">
+                <h2 class="third">Flutter Dev ,Anroid,ios</h2>
+            </div>
         </div>
 
-        <div class="section2">
-            
-            <h1>TAMAL SEN</h1>
+    </section>
 
-            <h2>Software Engineer, Front end & App Developer.</h2>
-        </div>
+    
 
-
-    </div>
-
+    
     <div class="cursor"></div>
     <div class="cursor2"></div>
+
+
+
     <script>
         var cursor = document.querySelector(".cursor");
         var cursor2 = document.querySelector(".cursor2");
-        document.addEventListener("mousemove",function(e){
+        document.addEventListener("mousemove", function (e) {
             cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX
-            + "px; top: " + e.clientY + "px;";
+                + "px; top: " + e.clientY + "px;";
 
         });
 
     </script>
-    
-    
+
+
+
+
 </body>
+
 </html>

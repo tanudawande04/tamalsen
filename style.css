@@ -8,106 +8,88 @@ body,html{
 
     height: 100vh;
     width: 100%;
+    color: white;
    background-color: transparent; 
    background-image: url(./tamalsen-home-cover.jpg);
    background-position: center;
    background-size: cover;
    font-family: Arial, Helvetica, sans-serif;
+   
 
 }
 
 #main{
 
     background-color: transparent;
-}
-
-
-.section1{
-   
-    padding: 25px 25px;
-   
-   
-
-}
-.box1{
-    width: 260px;
-   
-   
-}
-.section1 .box1 h2{
-
-    font-size: 40px;
-    color: cyan;
-   font-weight: 500;
-
-}
-
-.section1 .line{
-    display: flex;
+    background-image: url(./tamalsen-home-cover.jpg);
     
-    background-color: rgb(239, 122, 239);
-    height: 3px;
-    width: 15px;
 }
 
-.section1 .box2{
+
+nav{
+    padding: 25px 25px;
+
+}
+.logo{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 65px;
+    font-size: medium;
+    font-weight: 400;
+    color: #c6c6c6;
+
+}
+.nav-links :hover{
+    color: aliceblue;
+}
+
+
+
+.name{
 
     display: flex;
     justify-content: center;
-    margin-top: -39px;
-    gap: 20px;
+    padding-top: 10%;
+    font-size: 90px;
 
 }
 
-.box2 a{
-    font-size: 20px;
-    color: rgb(202, 199, 199);
-    text-decoration : none;
-}
+.caption{
 
-a:hover{
-    color: white;
-    
-}
-
-.section2{
-    width: 650px;
-    height: 180px;
-  
-    position: absolute;
-    left: 350px;
-    top: 170px;
-
-}
-
-.section2 h1{
-    font-size: 106px;
-    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
     letter-spacing: 3px;
-
-}
-.section2 h2{
-    color: aliceblue;
-    letter-spacing: 2px;
-    padding: 10px 10px;
-    background-image: ;
-
-    animation-name: tannu;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes tannu {
-    from{
-        transform: translateX(100%);
-    }
-    to{
-        transform: translateX(-100%);
-
-    }
+    font-size: 17px;
+   word-spacing: 4px;
     
 }
+
+.experties{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    background-image: none;
+   
+}
+.row{
+    position: absolute;
+    left: 8%;
+    height: 300px;
+    width: 1050px;
+    background-color: black;
+    
+}
+
 
 .cursor{
     position: fixed;
